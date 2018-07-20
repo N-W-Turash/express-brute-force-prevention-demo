@@ -1,0 +1,24 @@
+{
+  "name": "express-brute-force-prevention-demo",
+  "version": "1.0.0",
+  "description": "Just a demo to introduce how we can prevent brute force attack in our node js app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "keywords": [],
+  "author": "N. W. Turash <turash.sust@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-rate-limit": "^2.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
